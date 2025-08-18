@@ -36,7 +36,7 @@ func main() {
 		"https://goofoffproducts.com/discontinued-rustaid-bathroom-toilet-tabs/",
 		"https://goofoffproducts.com/discontinued-rust-remover-soak/",
 	} // URL to fetch HTML content from
-	localFilePath := "jasco-help.html" // Path where HTML file will be stored
+	localFilePath := "goofoffproducts.html" // Path where HTML file will be stored
 
 	var getData []string
 
