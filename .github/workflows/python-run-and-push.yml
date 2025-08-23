@@ -9,6 +9,8 @@ on:
   # Allow the workflow to be manually triggered from the GitHub UI
   workflow_dispatch:
 
+permissions: write-all   # 👈 Grants read/write for all available scopes
+
 # Define the set of jobs to run
 jobs:
   # Name of the job
@@ -17,8 +19,6 @@ jobs:
     name: Execute main.go and Push Changes
     # Specify the type of runner (a fresh Ubuntu VM)
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     # List of steps to perform in this job
     steps:
