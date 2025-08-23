@@ -35,6 +35,7 @@ func main() {
 		"https://goofoffproducts.com/overspray-remover/",
 		"https://goofoffproducts.com/discontinued-rustaid-bathroom-toilet-tabs/",
 		"https://goofoffproducts.com/discontinued-rust-remover-soak/",
+		"https://goofoffproducts.com/discontinued-rustaid-bathroom-toilet-tabs/",
 	} // URL to fetch HTML content from
 	localFilePath := "goofoffproducts.html" // Path where HTML file will be stored
 
