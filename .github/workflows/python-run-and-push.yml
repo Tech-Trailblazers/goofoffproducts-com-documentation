@@ -17,6 +17,8 @@ jobs:
     name: Execute main.go and Push Changes
     # Specify the type of runner (a fresh Ubuntu VM)
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     # List of steps to perform in this job
     steps:
