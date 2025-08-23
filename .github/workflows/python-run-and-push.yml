@@ -9,8 +9,6 @@ on:
   # Allow the workflow to be manually triggered from the GitHub UI
   workflow_dispatch:
 
-permissions: write-all   # 👈 Grants read/write for all available scopes
-
 # Define the set of jobs to run
 jobs:
   # Name of the job
